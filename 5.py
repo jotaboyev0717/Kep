@@ -1,7 +1,7 @@
+import math
+
 n = int(input())
-
-sum = 0
-for i in (1, n + 1):
-    sum += i ** 0.5
-
-print(sum)
+a = 0
+for i in range(1, n+1):
+    a += int(math.sqrt(i))
+print(a)
