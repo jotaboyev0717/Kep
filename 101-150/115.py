@@ -1,0 +1,1 @@
+print(["Zero", "One", "Two"][int(input()) % 3])
