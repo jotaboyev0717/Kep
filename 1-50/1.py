@@ -1,3 +1,1 @@
-a = int(input())
-b = int(input())
-print(a + b)
+print(sum(int(input()) for _ in range(2)))
