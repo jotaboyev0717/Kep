@@ -5,5 +5,6 @@ for c in reversed(son):
         count += 1
     else:
         break
-    
+
 print(count)
+

@@ -1,7 +1,11 @@
 n = int(input())
-numbers = list(map(int, input().split()))
+nums = list(map(int, input().split()))
+found = False
+for i, num in enumerate(nums):
+    if num == 1:
+        print(i)
+        found = True
+        break
 
-if 1 in numbers:
-    print(numbers.index(1))
-else:
+if not found:
     print(-1)

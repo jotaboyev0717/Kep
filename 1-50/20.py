@@ -1,7 +1,15 @@
-n = input().strip()
+# n = input().strip()
+# while len(n) > 1:
+#     s = 0
+#     for i in n:
+#         s += int(i)
+#     n = str(s)
+# print(n)
+
+n = input()
 while len(n) > 1:
     s = 0
     for i in n:
         s += int(i)
     n = str(s)
-print(n)
+print(s)
