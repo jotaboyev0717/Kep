@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c=abs(a)
+d=abs(b)
+print(b if c > d else a)
