@@ -1,10 +1,22 @@
+# n = int(input())
+#
+# sieve = [True] * (n + 1)
+#
+# for i in range(2, n + 1):
+#     if sieve[i]:
+#         for j in range(i * i, n + 1, i):
+#             sieve[j] = False
+#
+# print(*[i for i in range(2, n + 1) if sieve[i]])
+
 n = int(input())
 
-sieve = [True] * (n + 1)
+is_prime = [True] * (n + 1)
+is_prime[0] = is_prime[1] = False
 
 for i in range(2, n + 1):
-    if sieve[i]:
+    if is_prime[i]:
         for j in range(i * i, n + 1, i):
-            sieve[j] = False
+            is_prime[j] = False
 
-print(*[i for i in range(2, n + 1) if sieve[i]])
+print(*[i for i in is_prime if is_prime[i]])
