@@ -1,0 +1,98 @@
+# 🧠 KEP.uz — Python Problem Solutions
+
+This repository contains my solutions to algorithmic problems from [KEP.uz](https://kep.uz/) written in **Python**.
+
+My main goal is to improve my problem-solving skills, strengthen my Python knowledge, and build a strong foundation in algorithms and data structures.
+
+## 🎯 Goal
+
+**Solve 1000–1500+ algorithmic problems.**
+
+This repository tracks my progress as I continue learning programming and algorithms.
+
+## 🐍 Programming Language
+
+* Python 3
+
+## 📂 Repository Structure
+
+Problems are organized into folders by their numbers:
+
+```text
+Kep/
+├── 1-50/
+├── 51-100/
+├── 101-150/
+├── 151-200/
+├── 201-250/
+├── easy_random/
+└── README.md
+```
+
+Each `.py` file contains the solution to a corresponding problem from KEP.uz.
+
+Example:
+
+```text
+1-50/
+├── 1.py
+├── 2.py
+├── 3.py
+...
+└── 50.py
+```
+
+## 📈 Progress
+
+**Target:** 1000–1500+ problems
+
+```text
+250+ / 1500
+████░░░░░░░░░░░░░░░░
+```
+
+The progress will be updated as I solve more problems.
+
+## 📚 Topics I Am Learning
+
+While solving problems, I am improving my knowledge of:
+
+* Python basics
+* Conditions (`if`, `elif`, `else`)
+* Loops (`for`, `while`)
+* Lists and Strings
+* Functions
+* Mathematical algorithms
+* Sorting
+* Searching
+* Time Complexity
+* Data Structures
+* Dynamic Programming
+* Greedy Algorithms
+* Graph Algorithms
+
+## 🚀 Challenge
+
+The goal is not only to solve a large number of problems.
+
+I want to improve the complete problem-solving process:
+
+**Problem → Thinking → Algorithm → Code → Accepted ✅**
+
+## 🔗 Platform
+
+Problems are taken from:
+
+**KEP.uz**
+
+https://kep.uz/
+
+---
+
+⭐ **Goal: 1000–1500+ problems**
+
+🐍 **Language: Python**
+
+📈 **Status: In Progress**
+
+> Every solved problem is one more step toward becoming a better programmer.
